@@ -1,3 +1,2 @@
 # LugBot
-A Telegram bor for ILUG-D telegram group .
-Made to create our life easy 
+A Telegram bot which lives in ILUG-D telegram channel. Created to make our life easy.
