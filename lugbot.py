@@ -55,6 +55,7 @@ twitter_handler = CommandHandler('twitter',twitter)
 invite_handler = CommandHandler('invitelink',invitelink)
 facebook_handler = CommandHandler('facebook',facebook)
 mailinglist_handler = CommandHandler('mailinglist',mailinglist)
+googglegroups_handler = CommandHandler('googlegroups',googlegroups)
 help_handler = CommandHandler('help',help)
 
 dispatcher.add_handler(twitter_handler)
