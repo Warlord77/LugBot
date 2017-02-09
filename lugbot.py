@@ -61,6 +61,7 @@ dispatcher.add_handler(twitter_handler)
 dispatcher.add_handler(invite_handler)
 dispatcher.add_handler(facebook_handler)
 dispatcher.add_handler(mailinglist_handler)
+dispatcher.add_handler(googlegroups_handler)
 dispatcher.add_handler(help_handler)
 
 
