@@ -18,6 +18,7 @@ help_text="""
 [ x ] /twitter     --> Link to the ILUG-D Twitter
 [ x ] /facebook    --> Facebook page of ILUG-D
 [ x ] /mailinglist --> Link to the mailing list for ILUG-D
+[ x ] /googlegroup --> Link to ILUG-D google groups
 """
 
 def invitelink(bot, update):
@@ -39,6 +40,11 @@ def mailinglist(bot, update):
     bot.sendChatAction(chat_id=update.message.chat_id,
                        action=ChatAction.TYPING)
     bot.sendMessage(chat_id=update.message.chat_id, text=config['BOT']['mailing_list'])
+    
+def googlegroups(bot,update):
+    bot.sendChatAction(chat_id=update.message.chat_id,
+                       action=ChatAction.TYPING)
+    bot.sendMessage(chat_id=update.message.chat_id, text=config['BOT']['googlegroups']
 
 def help(bot, update):
     bot.sendChatAction(chat_id=update.message.chat_id, action=ChatAction.TYPING)
